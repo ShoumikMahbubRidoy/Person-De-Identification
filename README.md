@@ -1,7 +1,7 @@
 <p align="center"><img width="40%" src="jpg/logo.jpg" /></p>
 
 --------------------------------------------------------------------------------
-This repository provides a PyTorch implementation of [StarGAN](https://arxiv.org/abs/1711.09020). StarGAN can flexibly translate an input image to any desired target domain using only a single generator and a discriminator. The demo video for StarGAN can be found [here](https://www.youtube.com/watch?v=EYjdLppmERE).
+This repository provides a PyTorch implementation 
 
 <p align="center"><img width="100%" src="jpg/main.jpg" /></p>
 
@@ -118,35 +118,3 @@ $ python main.py --mode test --dataset CelebA --image_size 256 --c_dim 5 \
                  --result_dir='stargan_celeba_256/results'
 ```
 
-<br/>
-
-## Results
-
-### 1. Facial Attribute Transfer on CelebA
-<p align="center"><img width="100%" src="jpg/result_celeba1.jpg" /></p>
-
-### 2. Facial Expression Synthesis on RaFD
-<p align="center"><img width="100%" src="jpg/result_rafd.jpg" /></p>
-
-### 3. Facial Expression Synthesis on CelebA
-<p align="center"><img width="100%" src="jpg/result_celeba2.jpg" /></p>
-
-
-<br/>
-
-## Citation
-If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1711.09020):
-```
-@InProceedings{StarGAN2018,
-author = {Choi, Yunjey and Choi, Minje and Kim, Munyoung and Ha, Jung-Woo and Kim, Sunghun and Choo, Jaegul},
-title = {StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2018}
-}
-```
-
-<br/>
-
-## Acknowledgement
-This work was mainly done while the first author did a research internship at [Clova AI Research, NAVER](https://clova.ai/en/research/research-area-detail.html?id=0). We thank all the researchers at NAVER, especially Donghyun Kwak, for insightful discussions.
